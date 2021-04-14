@@ -10,11 +10,11 @@ Página de recetas solo con html.
 ## Clase 5
 
 Curriculum Vitae de Batman para explorar CSS.
-* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase4/
+* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase5/
 
 ## Clase 6
 
 Se retoma la página de recetas, ahora poniendo estilos con CSS.
-* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase4/
+* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase6/
 
 
