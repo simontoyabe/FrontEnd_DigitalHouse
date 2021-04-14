@@ -1,0 +1,45 @@
+/*Estilos del header*/
+.NavItems {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+}
+.EspacioInicialImagen {
+    background-image: url(../img/lemon-pie.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 50vh;
+}
+.MarcaAgua {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 50vh;
+    position: relative;
+    min-height: 200px;
+}
+.textoAbajo {
+    position: absolute;
+    bottom: 0px;
+    left: 0pc;
+}
+/*Estilos del body*/
+body {
+    font-family: 'Lato', sans-serif;
+}
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+#PalabraEspecial {
+    text-decoration: underline;
+    color:orange;
+}
+/*Estilos del footer*/
+footer {
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    text-align: center;
+}

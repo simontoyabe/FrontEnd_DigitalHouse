@@ -1,0 +1,47 @@
+/* Estilos para el header del body*/
+header{
+    background-color: rgb(221,221,221);
+    text-align: center;
+}
+#ImagenHeader{
+    display: block;
+    margin: auto;
+}
+#TituloPrincipal{
+    background-color: rgb(191,191,191);
+    color: rgb(39,62,97);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+/* Estilos para el main del body*/
+section{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h3 {
+    background-color: rgb(191,191,191);
+    color:rgb(78,47,47);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.letrasNegrilla {
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+/* Estilos para el footer del body*/
+footer{
+    background-color: rgb(30,72,124);
+    text-align: center;
+}
+#letrasFooter {
+    color:white;
+    text-align: center;
+}
+.ImagenFooter {
+    width: 15px; 
+    height: 15px;
+}
