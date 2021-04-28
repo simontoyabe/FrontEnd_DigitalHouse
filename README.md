@@ -20,5 +20,5 @@ Se retoma la página de recetas, ahora poniendo estilos con CSS.
 ## Clase 7
 
 Página de herores, *aún en construcción*.
-* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase6/
+* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase7/
 
