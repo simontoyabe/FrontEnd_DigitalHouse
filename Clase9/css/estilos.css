@@ -89,6 +89,10 @@ li a:hover {
     position: absolute;
     left: 32%;
     top: -20%;
+    transition: transform 0.2s;
+}
+.img-heroes:hover {
+    transform: scale(1.2);
 }
 .boton-vermas{
     display: inline-block;
