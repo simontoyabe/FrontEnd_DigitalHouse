@@ -22,8 +22,13 @@ Se retoma la página de recetas, ahora poniendo estilos con CSS.
 Página de héroes y heroínas. 
 * https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase7/
 
-## HTML, CSS y algunas animaciones
+## HTML, CSS y algunas transiciones
 
 Página de héroes y heroínas completa. 
 * https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase9/
+
+## Animaciones con keyframes
+
+Modelo landing page con redes sociales y algunas animaciones
+* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase12/
 

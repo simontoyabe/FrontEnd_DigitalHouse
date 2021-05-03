@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
 .div-inicial>p {
     background-color: #1CD1B0;
     color: black;
@@ -59,7 +58,6 @@ h1 {
 }
 img{
     border-radius: 50%;
-    size: 10px;
     width: 300px;
     height: 300px;
     position: absolute;
