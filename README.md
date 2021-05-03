@@ -32,3 +32,8 @@ Página de héroes y heroínas completa.
 Modelo landing page con redes sociales y algunas animaciones
 * https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase12/
 
+## Aproximación al diseño web responsive
+
+Boceto desktop que se adapta a tablets y smartphones
+* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase13/
+
