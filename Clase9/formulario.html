@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Los superheroes de tu vida">
+    <title>Hero Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/formulario.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="div-inicial">
+        <p>20% de descuento en todos los productos</p>
+    </div>
+    <header>
+        <div class="titulo">
+            <a href="./index.html"><img class="img-logo" src="./img/logo 1.png" alt="Logo de la tienda"></a>
+            <h1>La tienda de los Super</h1>
+        </div>
+        <div class="navegador">
+            <nav>
+                <ul>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./registros.html">Registrarme</a></li>
+                    <li><a href="./login.html">Ingresar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="div-main">
+            <h3>Añadí tu super</h3>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <form action="./index.html" method="GET">
+                <div class="col form-left">
+                    <label for="nombre">Nombre (Obligatorio)</label>
+                    <input class="especiales"type="text" id="nombre" name="nombre" placeholder="Simón" tabindex="1" required>
+                    <label for="fecha">Fecha (Obligatorio)</label>
+                    <input type="date" id="fecha" name="fecha" tabindex="3" required>
+                    <textarea name="comentario" id="comentario" placeholder="Descripción" tabindex="5"></textarea>
+                </div>
+                <div class="col form-right">
+                    <label for="especie">Especie (Obligatorio)</label>
+                    <select name="especie" id="especie"placeholder="Escoge una opción" tabindex="2" required>
+                        <option value="volador">Volador</option>
+                        <option value="corredor">Corredor</option>
+                        <option value="trepador">Trepador</option>
+                        <option value="saltador">Saltador</option>
+                    </select>
+
+                    <label for="archivo">Agregar archivo</label>
+                    <input type="file" name="archivo" id="archivo" accept=".jpg,.png,.svg,.jpeg,.bmp,.gif" tabindex="4">
+
+                    <p>Poderes</p>
+
+                    <label for="poderes1"><input class="botones" type="checkbox" name="poderes" id="poderes1"
+                            value="volar" tabindex="6">Volar
+                    </label>
+                    <label for="poderes2"><input class="botones" type="checkbox" name="poderes" id="poderes2"
+                            value="superinteligencia" tabindex="7"> Superinteligencia
+                    </label>
+                    <label for="poderes3"><input class="botones" type="checkbox" name="poderes" id="poderes3"
+                            value="vistaRayoLaser" tabindex="8"> Vista de rayo láser
+                    </label>
+                    <label for="poderes4"><input class="botones" type="checkbox" name="poderes" id="poderes4"
+                            value="billeteraGorda" tabindex="9"> Billetera gorda
+                    </label>
+
+                    <span>__________________________________________</span>
+
+                    <p>Tipo de personaje</p>
+                    <label for="heroe"><input class="botones" type="radio" name="heroe-villano" id="heroe"
+                            value="heroeHeroina" tabindex="10"> Héroe /
+                        Heroína</label>
+                    <label for="villano"><input class="botones" type="radio" name="heroe-villano" id="villano"
+                            value="villanoVillana" tabindex="11"> Villano
+                        /
+                        Villana</label>
+                </div>
+                <input class="boton-submit" type="submit" value="Añadir">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>
+            Todos los derechos reservados a Simón Montoya Bedoya
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*div descuento*/
+.div-inicial {
+    background-color: #1CD1B0;
+    color: black;
+    height: 23px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+/*Estilos del header*/
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);    
+}
+.titulo {
+    background-color: #00669F;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+    display: inline-block;
+}
+.navegador {
+    text-align: right;
+    background-color:#001D2D;
+    padding: 5px;
+}
+.navegador li{
+    display: inline-block;
+    margin: 5px;
+} 
+.navegador li a{     
+    text-decoration: none;
+    color: white
+}
+li a:hover {
+    color:yellow;
+}
+/*Estilos del main*/
+.div-main {
+    display: flex;
+    margin: 10% 2%;
+}
+.div-card {
+    margin: 20px;
+    width: 300px;
+}
+.img-bg {
+    border-radius: 60px 60px 0px 0px;
+    height: 193px;
+
+}
+.img-batman {
+    background-image: url(../img/bg-batman.jpg);
+    background-size: contain;
+}
+.img-wonder {
+    background-image: url(../img/bg-wonderw.jpg);
+    background-size: cover;
+}
+.img-superman {
+    background-image: url(../img/bg-superman.jpg);
+    background-size: cover;
+}
+.img-harley {
+    background-image: url(../img/bg-harley.png);
+    background-size: cover;
+}
+.fa-heart{
+    color: red;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.img-heroes {
+    border-radius: 50%;
+    width: 120px;
+    height: 118px;
+    position: absolute;
+    left: 32%;
+    top: -20%;
+}
+.boton-vermas{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 30px;
+    background-color: #00669F;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 30%;
+}
+.boton-vermas:hover {
+    background-color: #001D2D;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 400px;
+    padding-top: 50px;;
+}
+.contenido {
+    background-color: #F3F3F3;
+    text-align: center;
+    position: relative;
+    height: 336px;
+}
+.contenido>p {
+    font-size: 16px;
+    margin: 20px;
+    text-align: left;
+}
+.fa-plus-circle {
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+    color: #00669F;
+    font-size: 30px;
+}
+.fa-plus-circle:hover {
+    color: #001D2D;
+}
+/*Estilos del footer*/
+footer {
+    color: #FFF9F9;
+    background-color: #00669F;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
