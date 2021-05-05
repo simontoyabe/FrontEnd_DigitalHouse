@@ -37,3 +37,8 @@ Modelo landing page con redes sociales y algunas animaciones
 Boceto desktop que se adapta a tablets y smartphones
 * https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase13/
 
+## Usando flex
+
+Se usa flex para acomodar una página construída por el profe
+* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase14/
+
