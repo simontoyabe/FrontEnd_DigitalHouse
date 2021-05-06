@@ -148,4 +148,14 @@ footer ul li {
 @media screen and (max-width:  768px) {
    /* - Ocultar los botone de nav (del header)
       - Añadir el ícono hamburguesa */
+      header {
+        flex-wrap: wrap;
+      }
+      header .header__logo {
+        width: 100%;
+        justify-content: space-between; 
+      }
+      main .container {
+        flex-wrap: wrap;
+      }
 }
