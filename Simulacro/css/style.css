@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --primario: #222222;
+  --colorSecundario: #d01418;
+  --colorTercero: #f3f3f3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: var(--primario);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 35px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header div h1 {
+  margin-left: 20px;
+  color: var(--colorTercero);
+}
+
+header div h1 span {
+  color: var(--colorSecundario);
+}
+
+.kangrebur {
+  display: none;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li a {
+  padding: 0px 4px;
+  color: var(--colorTercero);
+  text-decoration: none;
+}
+
+.carrito {
+  color: var(--colorSecundario);
+  font-size: 24px;
+}
+
+.hero {
+  height: 512px;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero div h3 {
+  color: var(--colorTercero);
+  font-size: 40px;
+}
+
+.hero div h3 span {
+  color: var(--colorSecundario);
+}
+
+.hero div a {
+  background-color: var(--colorSecundario);
+  border-radius: 5px;
+  color: var(--colorTercero);
+  text-decoration: none;
+  padding: 16px 61px;
+  margin-top: 30px;
+}
+
+.hero div a:hover {
+  background-color: var(--colorTercero);
+  color: var(--colorSecundario);
+  font-weight: bold;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.content {
+  background-color: var(--colorTercero);
+  padding: 50px;
+}
+
+section .container__card {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 300px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.card .card-img {
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+  border-bottom: 1px solid #222222;
+}
+
+.card .card-text {
+  padding: 15px;
+}
+
+.card .card-text h4,
+h5 {
+  font-weight: normal;
+}
+
+.card .card-text h6 {
+  color: #619D00;
+  font-weight: normal;
+}
+
+.container__banner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner {
+  width: 300px;
+  height: 135px;
+  border-radius: 5px;
+}
+
+section div div a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0px 10px;
+}
+
+.sillas {
+  background-image: url(../img/banner2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.computadoras {
+  background-image: url(../img/banner.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section .container__banner {
+  padding: 20px 0px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primario);
+  padding: 40px 40px;
+}
+
+.footer__top1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__bottom {
+  background-color: var(--colorTercero);
+  text-align: center;
+}
+
+.footer__top1 h4 {
+  margin-left: 20px;
+  color: var(--colorTercero);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.footer__top1 h4 span {
+  color: var(--colorSecundario);
+}
+
+footer div h4 {
+  color: white;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+.footer__top2 ul {
+  margin-top: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen AND (max-width: 480px) {
+  nav {
+    display: none;
+  }
+
+  .kangrebur {
+    display: block;
+    color: var(--colorTercero);
+    font-size: 27px;
+  }
+
+  .hero div h3 {
+    text-align: center;
+  }
+
+  section .container__card {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin: 10px 0px;
+  }
+
+  .container__banner {
+    flex-wrap: wrap;
+  }
+
+  .banner {
+    margin: 10px 0px;
+  }
+
+  .footer__top {
+    flex-direction: column;
+    text-align: center
+  }
+
+  .footer__top1 {
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+
+  .footer__top2 ul {
+    justify-content: space-around;
+  }
+}

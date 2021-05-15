@@ -42,3 +42,8 @@ Boceto desktop que se adapta a tablets y smartphones
 Se usa flex para acomodar una página construída por el profe
 * https://simontoyabe.github.io/FrontEnd_DigitalHouse/Clase14/
 
+## Usando flex y diseño web responsive
+
+Página de game shop con flex y diseño adaptativo
+* https://simontoyabe.github.io/FrontEnd_DigitalHouse/Simulacro/
+
