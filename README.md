@@ -47,3 +47,5 @@ Se usa flex para acomodar una página construída por el profe
 Página de game shop con flex y diseño adaptativo
 * https://simontoyabe.github.io/FrontEnd_DigitalHouse/Simulacro/
 
+Página de Cat&Dog con flex y diseño adaptativo
+* https://simontoyabe.github.io/FrontEnd_DigitalHouse/CatAndDog/
